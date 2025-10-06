@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_gesundheit_gesundheits",
+  "info": {
+    "displayName": "Gesundheit",
+    "icon": "heart"
+  },
+  "options": {},
+  "attributes": {
+    "Bewegung": {
+      "type": "enumeration",
+      "required": true,
+      "default": "gut",
+      "enum": [
+        "gut",
+        "läuft/sitzt komisch"
+      ]
+    },
+    "Gewicht": {
+      "type": "enumeration",
+      "required": true,
+      "default": "okay",
+      "enum": [
+        "zu dünn",
+        "okay",
+        "zu dick"
+      ]
+    },
+    "Verhalten": {
+      "type": "enumeration",
+      "enum": [
+        "wach/aufmerksam/klar",
+        "wirkt zurückgezogen/kränklich/matt"
+      ]
+    },
+    "Freitext": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_gesundheit_mit_menschens",
+  "info": {
+    "displayName": "mitMenschen",
+    "icon": "user"
+  },
+  "options": {},
+  "attributes": {
+    "freundlich": {
+      "type": "boolean"
+    },
+    "kommt": {
+      "type": "enumeration",
+      "enum": [
+        "sofort",
+        "zögerlich",
+        "hält Abstand"
+      ]
+    },
+    "anfassbarkeit": {
+      "type": "enumeration",
+      "enum": [
+        "Lässt sich überall anfassen (Pfoten, Ohren, Körper)",
+        "Lässt sich eingeschränkt anfassen",
+        "weicht aus",
+        "Zeigt Abwehrverhalten"
+      ]
+    },
+    "laesstSichEinschraenken": {
+      "type": "boolean"
+    },
+    "laesstSichFesthalten": {
+      "type": "boolean"
+    },
+    "Freitext": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

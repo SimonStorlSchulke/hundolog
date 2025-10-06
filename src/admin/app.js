@@ -1,9 +1,10 @@
+
 const config = {
   locales: [
     // 'ar',
     // 'fr',
     // 'cs',
-    // 'de',
+     'de',
     // 'dk',
     // 'es',
     // 'he',
@@ -27,6 +28,14 @@ const config = {
     // 'zh-Hans',
     // 'zh',
   ],
+  translations: {
+/*     de: {
+      "Content Manager": "Content Manager",
+      "header.name": "Content Manager",
+      "content-manager.header.name": "Content Manager",
+      "Content Type Builder": "Content Type Builder",
+    } */
+  },
 };
 
 const bootstrap = (app) => {

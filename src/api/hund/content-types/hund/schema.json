@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hunds",
+  "info": {
+    "singularName": "hund",
+    "pluralName": "hunds",
+    "displayName": "Hund"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "Gesundheit": {
+      "type": "component",
+      "component": "gesundheit.gesundheit",
+      "repeatable": false
+    },
+    "mitAnderenHunden": {
+      "type": "component",
+      "component": "gesundheit.mit-anderen-hunden",
+      "repeatable": false
+    },
+    "mitMenschenEstkontakt": {
+      "type": "component",
+      "component": "gesundheit.mit-menschen",
+      "repeatable": false
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_gesundheit_mit_anderen_hundens",
+  "info": {
+    "displayName": "Mit anderen Hunden"
+  },
+  "options": {},
+  "attributes": {
+    "SpieltMitAnderenHunden": {
+      "type": "boolean"
+    },
+    "StreitetSichOft": {
+      "type": "boolean"
+    },
+    "VerwaltetRessourcen": {
+      "type": "boolean"
+    },
+    "Mobbt": {
+      "type": "boolean"
+    },
+    "VerkriechtSich": {
+      "type": "boolean"
+    },
+    "WirdBegruesst": {
+      "type": "boolean"
+    },
+    "Koerperhaltung": {
+      "type": "enumeration",
+      "enum": [
+        "geduckt",
+        "aufrecht/auverän"
+      ]
+    },
+    "Position": {
+      "type": "enumeration",
+      "enum": [
+        "mittendrin",
+        "außerhalb"
+      ]
+    },
+    "wieDarfSichDerHundBewegen": {
+      "type": "string"
+    },
+    "Freitext": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}
